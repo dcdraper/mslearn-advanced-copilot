@@ -53,6 +53,37 @@ During this step we will be using an agent (workspace) to write the project docu
 
 `> @workspace help me to use an agent to write the project documentation on how to run it .`
 
+Sure! Here's an example of how you can document how to run the project in the README.md file:
+
+```markdown
+## Running the Project
+
+To run this project, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running the following command:
+    ```
+    pip install -r requirements.txt
+    ```
+3. Set up the environment variables by creating a `.env` file in the root directory of the project and adding the necessary configuration. For example:
+    ```
+    API_KEY=your_api_key
+    ```
+4. Start the server by running the following command:
+    ```
+    python main.py
+    ```
+5. Open your web browser and navigate to `http://localhost:8000` to access the application.
+
+That's it! You should now be able to run the project locally and interact with the API.
+
+> Note: Make sure you have Python and pip installed on your machine before running the project.
+
+```
+
+Remember to customize the instructions based on the specific requirements and setup of your project.
+
+
 Finally, verify the new endpoint is working by trying it out by going to the `/docs` endpoint and confirming that the endpoint shows up.
 
 
